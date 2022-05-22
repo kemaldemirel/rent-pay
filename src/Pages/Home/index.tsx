@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useMainContext } from "../../context";
+import { useMainContext } from "context";
 import { useNavigate } from "react-router-dom";
-import { authService } from "../../services/authService";
+import { authService } from "services/authService";
 
 const Home = () => {
   const navigate = useNavigate();

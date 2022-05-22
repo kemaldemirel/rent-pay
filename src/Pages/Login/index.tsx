@@ -6,7 +6,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import styles from "./login.module.scss";
 import { box, title, input, btn } from "./material.styles";
 import Button from "@mui/material/Button";
-import { authService } from "../../services/authService";
+import { authService } from "services/authService";
 import { useNavigate } from "react-router-dom";
 
 interface IAuthData {
